@@ -5,7 +5,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(to right, black, #1a1a1a, black);
+    background: linear-gradient(to right, black, #1f2937 50%, black);
     color: white;
   }
   
