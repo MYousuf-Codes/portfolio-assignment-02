@@ -1,0 +1,68 @@
+/* footer.css */
+
+/* Footer Styling */
+.footer {
+    background-color: #1f2937; /* Equivalent to bg-gray-900 */
+    color: white;
+    padding: 24px 0; /* Equivalent to py-6 */
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Footer Logo */
+  .footer-logo {
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-logo:hover {
+    color: #9ca3af; /* Equivalent to hover:text-gray-400 */
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    margin: 16px 0; /* Equivalent to my-4 */
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Space between links */
+  }
+  
+  .footer-link {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #9ca3af; /* Equivalent to hover:text-gray-400 */
+  }
+  
+  /* Social Icons Container */
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Space between icons */
+    margin: 16px 0; /* Equivalent to my-4 */
+  }
+  
+  /* Individual Footer Icon */
+  .footer-icon {
+    transition: transform 0.2s ease;
+  }
+  
+  .footer-icon:hover {
+    transform: scale(1.1); /* Equivalent to hover:scale-110 */
+  }
+  
+  /* Footer Text */
+  .footer-text {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: #6b7280; /* Equivalent to text-gray-500 */
+  }
+  

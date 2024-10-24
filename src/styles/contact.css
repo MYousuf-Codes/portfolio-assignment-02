@@ -1,0 +1,92 @@
+/* contact.css */
+
+/* Section Styling */
+.contact-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, black, #1a1a1a, black);
+    color: white;
+  }
+  
+  /* Title Styling */
+  .contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: white;
+  }
+  
+  /* Container Styling */
+  .contact-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  /* Card Wrapper */
+  .contact-card {
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg */
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Form Styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between form elements */
+  }
+  
+  /* Input Wrapper */
+  .input-wrapper {
+    position: relative;
+  }
+  
+  /* Input Fields */
+  .contact-input, .contact-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db; /* Equivalent to border-gray-300 */
+    border-radius: 8px;
+    font-size: 1rem;
+    color: black;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input Focus State */
+  .contact-input:focus, .contact-textarea:focus {
+    border-color: #3b82f6; /* Equivalent to focus:border-blue-500 */
+    outline: none;
+  }
+  
+  /* Textarea Styling */
+  .contact-textarea {
+    resize: none; /* Disable resizing */
+  }
+  
+  /* Submit Button Styling */
+  .submit-button {
+    font-weight: bold;
+    width: 100%;
+    background-color: #2563eb; /* Equivalent to bg-blue-600 */
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Submit Button Hover State */
+  .submit-button:hover {
+    background-color: #1d4ed8; /* Equivalent to hover:bg-blue-700 */
+  }
+  

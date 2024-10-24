@@ -1,0 +1,77 @@
+/* about.css */
+
+/* Section Styling */
+.about-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: linear-gradient(to right, black, #1a1a1a, black);
+    color: white;
+  }
+  
+  /* Container Styling */
+  .about-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  /* Title Styling */
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: white;
+  }
+  
+  /* Card Styling */
+  .about-card {
+    background-color: white;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Equivalent to shadow-2xl */
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Image Wrapper */
+  .about-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  
+  .about-image {
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Equivalent to shadow-2xl */
+  }
+  
+  /* Description Paragraphs */
+  .about-description {
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    color: black;
+    margin-bottom: 24px;
+  }
+  
+  /* Highlighted Text */
+  .highlight-text {
+    color: #2563eb; /* Equivalent to text-blue-600 */
+    font-weight: 600;
+  }
+  
+  /* Small Padding for Responsive Devices */
+  @media (max-width: 640px) {
+    .about-container {
+      padding: 16px;
+    }
+    
+    .about-card {
+      padding: 24px;
+    }
+  }
+  
